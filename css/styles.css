@@ -1,0 +1,131 @@
+body{
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-image: url("bodyy.jpg");
+    padding: 0;
+    margin: 0;
+
+    
+}
+#footer {
+    position: absolute;
+    left: 0;
+    bottom: 80px;
+ }
+
+ .fa {
+    padding: 30px;
+    font-size: 20px;
+    width: 70px;
+    text-align: center;
+    text-decoration:none;
+    margin: 5px 2px;
+    border-radius: 50%;
+  }
+
+ .fa:hover {
+    opacity: 0.7;
+ }
+ .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  
+  .fa-instagram {
+    background: #c23048;
+    color: white;
+  }
+  .fa-whatsapp {
+      background:green;
+      color: white;
+  }
+  
+ 
+.container{
+    padding: 0px;
+    width: 50px;
+    height:150px;
+    text-align: center;
+    opacity: 0.2;
+    
+    
+}
+.panel-body{
+    font-size: 60px;
+    font-variant: small-caps;
+    font-weight: bolder;
+    font: outline;
+    color:darkslategray;
+    opacity: 0.9;
+    text-align: center;
+    word-spacing: 10px;
+    letter-spacing: 3px;
+    text-shadow: 4px 3px red;  
+}
+  
+  
+
+
+.container5{
+    background-color:transparent;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    width:50%;
+    margin: 0px auto;
+    border:  5px solid lightslategray;
+    box-sizing: content-box; 
+
+ }
+
+.form-control-file{
+  height: 30px;
+  border-style: ridge;
+  height: 30px;
+  color: #fff;
+  font-size: 15px;
+  border-radius: 15px; 
+  border-color: #ffc107;
+
+  
+}
+
+.form-group{
+    position: relative;
+    color: red;
+    left: 250px;
+    margin: 10px;
+    opacity: 0.9;
+    
+}
+
+.form-group input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 30px;
+    background: #fb2525;
+    color: #fff;
+    font-size: 15px;
+    border-radius: 15px;  
+}
+.form-group input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
+}
+
+.grad11{
+  width:100%;
+  margin-top: 250px;
+  height: 80px;
+  background-image: linear-gradient(to right,rgba(255,0,0,0), rgb(221, 0, 0));
+}
+
